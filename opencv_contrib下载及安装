@@ -1,0 +1,5 @@
+下载地址：
+https://github.com/opencv/opencv_contrib/archive/3.2.0.tar.gz
+
+安装命令：
+cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D OPENCV_EXTRA_MODULES_PATH=<path to opencv_contrib>/modules/ ..
